@@ -20,6 +20,6 @@ avaliacao = requests.get('http://localhost:8000/api/v2/avaliacoes/7/')
 #print(avaliacao.json()['nome'])
 
 # GET Cursos (Requer autenticação):
-headers = {'Authorization': 'Token numToken'} #6a192de3bb41380ba44d477ecce73d377ebfba1a
+headers = {'Authorization': 'Token numToken'} #be53b98de687f6c3715cd3244ee30ae7fc2e85be
 cursos = requests.get(url='http://localhost:8000/api/v2/cursos/', headers=headers)
 print(cursos.json())

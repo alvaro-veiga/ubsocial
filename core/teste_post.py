@@ -1,6 +1,6 @@
 import requests
 
-headers = {'Authorization': 'Token numToken'} #6a192de3bb41380ba44d477ecce73d377ebfba1a
+headers = {'Authorization': 'Token numToken'} #be53b98de687f6c3715cd3244ee30ae7fc2e85be
 url_base_cursos = 'http://localhost:8000/api/v2/cursos/'
 url_base_avaliacoes = 'http://localhost:8000/api/v2/avaliacoes/'
 
